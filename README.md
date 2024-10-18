@@ -25,6 +25,9 @@ mv $GOPATH/bin/FetchAllSrc $GOPATH/bin/fas
 ```
 
 > Ensure that `$GOPATH/bin` is in your system's PATH to run `fas` from any terminal window.
+ `export GOPATH=$HOME/go`
+ `export PATH=$PATH:$GOPATH/bin`
+ `source ~/.zshrc`
 
 <br>
 
