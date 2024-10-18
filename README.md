@@ -15,10 +15,13 @@
 
 ## Installation
 
-To install FetchAllSrc as `fas`, use the following command:
+To install FetchAllSrc as `fas`, use the following commands:
 
 ```bash
-go install github.com/0xAb1d/FetchAllSrc@latest -o $GOPATH/bin/fas
+go install github.com/0xAb1d/FetchAllSrc@latest
+```
+```bash
+mv $GOPATH/bin/FetchAllSrc $GOPATH/bin/fas
 ```
 
 > Ensure that `$GOPATH/bin` is in your system's PATH to run `fas` from any terminal window.
