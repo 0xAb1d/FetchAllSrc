@@ -6,10 +6,10 @@
 
 ## Features
 
-- **Concurrent Downloads**: FetchAllSrc uses goroutines to handle multiple downloads simultaneously, speeding up the process and efficiently using network resources.
-- **Error Handling and Logging**: The tool logs all download activities, capturing Failures and Success details in log files to aid troubleshooting.
-- **Progress Tracking**: Displays real-time download progress, giving users visibility into the status of each download task.
-- **Safe Filename Conversion**: Automatically sanitizes URLs into valid filenames by replacing unsupported characters, ensuring compatibility across different operating systems.
+- **⚡️ Concurrent Downloads**: FetchAllSrc uses goroutines to handle multiple downloads simultaneously, speeding up the process and efficiently using network resources.
+- **🛠️ Error Handling and Logging**: The tool logs all download activities, capturing Failures and Success details in log files to aid troubleshooting.
+- **📊 Progress Tracking**: Displays real-time download progress, giving users visibility into the status of each download task.
+- **🔒 Safe Filename Conversion**: Automatically sanitizes URLs into valid filenames by replacing unsupported characters, ensuring compatibility across different operating systems.
 
 <br>
 
@@ -27,6 +27,7 @@ mv $GOPATH/bin/FetchAllSrc $GOPATH/bin/fas
 > Ensure that `$GOPATH/bin` is in your system's PATH to run `fas` from any terminal window.
  `export GOPATH=$HOME/go`
  `export PATH=$PATH:$GOPATH/bin`
+ `export PATH=$PATH:~/go/bin`
  `source ~/.zshrc`
 
 <br>
@@ -43,6 +44,14 @@ go build -o fas
 
 > This command compiles the program and creates an executable file named `fas` in your current directory.
 
+To move the fas executable to the Go binary directory, you can use the following commands:
+```
+mv fas $(go env GOPATH)/bin
+```
+or,
+```
+mv fas ~/go/bin
+```
 <br>
 
 
