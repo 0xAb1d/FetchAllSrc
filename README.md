@@ -24,6 +24,10 @@ To install FetchAllSrc as `fas`, use the following commands:
 go install github.com/0xAb1d/FetchAllSrc@latest
 ```
 ```bash
+mv ~/go/bin/FetchAllSrc ~/go/bin/fas
+```
+Or,
+```bash
 mv $GOPATH/bin/FetchAllSrc $GOPATH/bin/fas
 ```
 
