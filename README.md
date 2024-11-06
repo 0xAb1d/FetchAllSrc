@@ -2,6 +2,9 @@
 
 ## FetchAllSrc, also known as `fas`, is a streamlined command-line tool designed for fetching web resources or source code directly from provided URLs and saves them with clear, web-structure-mirrored names in a specified directory.
 
+![Screenshot (1307)](https://github.com/user-attachments/assets/c3d0e991-54cf-458a-a6e5-8b034cdfd652)
+
+
 <br>
 
 ## Features
@@ -124,6 +127,23 @@ If some files fail to download, `NotFound.txt` will list:
 https://example.com/src/data/contents/module.json
 ```
 
+## Sample screenshots
+
+![Screenshot (1305)](https://github.com/user-attachments/assets/40814e85-5898-4735-b89e-84f535762fa7)
+
+![Screenshot (1306)](https://github.com/user-attachments/assets/09ce4ede-c292-4d6b-8326-37b8b01460d6)
+> Slash `/` converted to underscore `_`
+
+![Screenshot (1303)](https://github.com/user-attachments/assets/7095d276-a35e-4c14-87cc-977d185313e2)
+
+![Screenshot (1304)](https://github.com/user-attachments/assets/6be3a59f-bce0-486b-92f1-9654f1f5ac7d)
+> `fetchallsrc.log` Log file
+
+![Screenshot (1301)](https://github.com/user-attachments/assets/ed1826b9-ecdc-4e79-a07d-222285f2664d)
+> `NotFound.txt` file
+
+![Screenshot (1302)](https://github.com/user-attachments/assets/b89f96f1-3ee0-4db6-b59e-d50f0094bf44)
+> Downloaded source code file
 
 ## License
 
