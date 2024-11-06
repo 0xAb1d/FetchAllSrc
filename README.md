@@ -32,7 +32,11 @@ mv $GOPATH/bin/FetchAllSrc $GOPATH/bin/fas
  `export PATH=$PATH:$GOPATH/bin`
  `export PATH=$PATH:~/go/bin`
  `source ~/.zshrc`
-
+```
+echo 'export GOPATH=$HOME/go' >> ~/.zshrc
+echo 'export PATH=$PATH:$GOPATH/bin' >> ~/.zshrc
+source ~/.zshrc
+```
 <br>
 
 #### Building Locally
